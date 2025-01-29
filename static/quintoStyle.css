@@ -1,0 +1,47 @@
+/*Mostrar Livros */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #dac8b3
+}
+
+.livros_cad h1{
+    width: 100%;
+    background-color: #001969;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.tabela table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+.tabela th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.sair{
+    margin-top: -210px;
+    margin-left: 15px;
+}
+
+.sair a{
+    color: white;
+    text-decoration: none;
+}

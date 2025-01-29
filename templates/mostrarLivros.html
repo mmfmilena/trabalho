@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Livros Cadastrados</title>
+    <link rel="stylesheet" href="..//static//quintoStyle.css">
+</head>
+<body>
+    <div class="livros_cad">
+        <h1>Lista de Livros Cadastrados</h1>
+    </div>
+
+    <div class="tabela">
+        <br>
+        <table>
+            <thead>
+                {% for livro in lista %}
+                    <tr>
+                        <th>{{livro[0]}}</th>
+                        <th>{{livro[1]}}</th>
+                        <th>{{livro[2]}}</th>
+                    </tr>
+                {% endfor %}
+            </thead>
+        </table>
+    </div>
+    <div class="sair">
+        <a href="/">Sair</a>
+    </div>
+</body>
+</html>

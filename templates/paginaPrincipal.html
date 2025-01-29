@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LIVROS</title>
+    <link rel="stylesheet" href="..//static//terceiroStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Coleção de Livros</h1>
+    </header>
+    <div class="primeiroLivro">
+        <img src="..//static/A_Rainha_Vermelha.png" alt="A Rainha Vermelha" class="primeiroLivro">
+    </div>
+    <div class="resenha">
+        <h2>Resenha do Livro</h2>
+        <p>
+            "A Rainha Vermelha", de Victoria Aveyard, é um romance de fantasia distópica ambientado em um mundo dividido
+            por classes sociais baseadas na cor do sangue. As pessoas de sangue prateado possuem habilidades extraordinárias,
+            enquanto os de sangue vermelho, como a protagonista Mare Barrow, são comuns e marginalizados. Mare, uma jovem de sangue
+            vermelho, acaba descobrindo que possui poderes raros, o que a leva a ser envolvida nas intrigas da realeza prateada.
+            Para proteger sua vida, ela é forçada a fingir ser uma princesa prateada, mas logo se vê dividida entre suas lealdades,
+            enquanto se junta a um movimento revolucionário para desafiar a opressão e derrubar a tirania dos prateados. A história
+            é repleta de reviravoltas, traições e dilemas sobre poder e justiça.
+        </p>
+    </div>
+    <div class="emprestimo">
+        <form action="/emprestimo" method="POST">
+            <label for="date">Data de Empréstimo:</label>
+            <br>
+            <input type="date" id="date" name="date">
+            <br>
+
+            <br>
+            <label for="date1">Data de Devolução:</label>
+            <br>
+            <input type="date" id="date1" name="date1">
+        </form>
+    </div>
+    <div class="stars">
+
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1">★</label>
+
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">★</label>
+
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">★</label>
+
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">★</label>
+
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">★</label>
+    </div>
+    <br>
+    <br>
+
+    <br>
+    <hr>
+    <div class="segundoLivro">
+        <img src="..//static/A_Selecao.png" alt="A Seleção" class="segundoLivro">
+    </div>
+
+    <div class="resenha2">
+        <h2>Resenha do Livro</h2>
+        <p>
+            "A Seleção", de Kiera Cass, acompanha a história de America Singer, uma jovem que, ao ser escolhida para competir em
+            um concurso real, se vê dividida entre dois mundos. Ela é uma das 35 garotas selecionadas para disputar o coração do
+            príncipe Maxon, mas já está apaixonada por Aspen, seu namorado de uma casta inferior. Enquanto participa da competição,
+            America se envolve em intrigas e conflitos com outras candidatas, e começa a questionar seu lugar no sistema de castas e
+            suas verdadeiras escolhas de coração. A trama explora temas como amor, lealdade e identidade, enquanto America enfrenta
+            dilemas que desafiam sua visão do futuro.
+        </p>
+    </div>
+
+    <div class="emprestimo2">
+        <form action="/emprestimo2" method="POST">
+            <label for="date">Data de Empréstimo:</label>
+            <br>
+            <input type="date" id="date2" name="date">
+            <br>
+
+            <br>
+            <label for="date1">Data de Devolução:</label>
+            <br>
+            <input type="date" id="date3" name="date1">
+        </form>
+    </div>
+
+    <div class="stars">
+        <input type="radio" id="star01" name="rating" value="1">
+        <label for="star01">★</label>
+
+        <input type="radio" id="star02" name="rating" value="2">
+        <label for="star02">★</label>
+
+        <input type="radio" id="star03" name="rating" value="3">
+        <label for="star03">★</label>
+
+        <input type="radio" id="star04" name="rating" value="4">
+        <label for="star04">★</label>
+
+        <input type="radio" id="star05" name="rating" value="5">
+        <label for="star05">★</label>
+    </div>
+
+    <div class="livroslidos">
+        <p>Se você deseja salvar todos os livros que você já leu, acesse o botão abaixo!</p>
+
+        <a href="/livroslidos" class="botao">Livros Lidos</a>
+        <a href="/pagcadastrolivros" class="botao">Cadastrar Livros</a>
+    </div>
+
+    <div class="sair">
+        <a href="/">Sair</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+/*Página Principal*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #dac8b3;
+}
+
+header {
+    width: 100%;
+    background-color: #001969;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.primeiroLivro{
+    width: 50%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.resenha {
+    background-color: #001969;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: -565px;
+}
+
+.resenha h2 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: white;
+}
+
+.resenha p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+}
+
+form {
+    background-color: #001969;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 10px auto;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    margin-right: 550px;
+    margin-top: 20px;
+    color: white;
+}
+
+.stars {
+    display: inline-block;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    font-size: 50px;
+    color: #ffd700;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-right: 15px;
+}
+
+.stars input[type="radio"]:checked ~ label {
+    color: gold;
+}
+
+.stars input[type="radio"]:checked ~ input[type="radio"] ~ label {
+    color: #001969;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+hr{
+    height: 3px;
+    background-color: #001969;
+    border: none;
+    margin: 15px 0;
+}
+
+.segundoLivro{
+    width: 50%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.resenha2 {
+    background-color: #001969;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: -585px;
+}
+
+.resenha2 h2 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: white;
+}
+
+.resenha2 p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.livroslidos {
+    background-color: #001969;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.livroslidos p{
+    margin: 10px 0;
+    font-size: 17px;
+    color: white;
+}
+
+.livroslidos a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.sair {
+    margin-top: -1435px;
+    margin-left: 15px;
+}
+
+.sair a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BIBLIOTECA DIGITAL</title>
+    <link rel="stylesheet" href="..//static//style.css">
+</head>
+    <body>
+        <header>
+            <h1>Biblioteca Digital</h1>
+            <br>
+            <h1>Bem-vindo à Nossa Biblioteca Digital</h1>
+        </header>
+        <br>
+        <div class = "retangulo">
+            <br>
+            <h1>O que é uma biblioteca digital?</h1>
+            <br>
+
+            <p>
+                Imagine um lugar onde você tem acesso instantâneo a livros, tudo isso sem sair de casa.
+                É exatamente isso que uma biblioteca digital oferece! Ela funciona como uma grande coleção
+                de conteúdos digitais, organizados para facilitar sua pesquisa e aprendizado. Aqui você pode
+                explorar e acessar todo o acervo diretamente pelo seu computador, tablet ou celular.
+            </p>
+        </div>
+        <img src="..//static//Logo_with_background.png" alt="Logo da Biblioteca Digital" class = "logo">
+
+        <br>
+        <div class = "/login">
+            <form action="/login" method="POST">
+                <label for="username">Login:  </label>
+                <input type="text" id="username" name="login">
+                <br>
+
+                <br>
+                <label for="password">Senha:  </label>
+                <input type="password" id="password" name="senha">
+                <br>
+
+                <br>
+                <div class="/enviar">
+                    <button type="submit">Enviar</button>
+                    <br>
+                </div>
+                <br>
+                <a href="/mostrarpaginacadastro" class="login">Cadastre-se</a>
+
+                <div class= "msg">
+                    <p>{{msg}}</p>
+                </div>
+
+                <div class= "msgok">
+                    <p>{{ok}}</p>
+                </div>
+
+                <div class="msgerro">
+                    <p>{{erro}}</p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

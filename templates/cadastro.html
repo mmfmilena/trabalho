@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="..//static//segundoStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastre-se</h1>
+    </header>
+    <main>
+        <div class="cadastro">
+            <form action="/cadastro" method="post">
+
+                <label for="name">Nome:  </label>
+                <input type="text" id="name" name="nome">
+                <br>
+
+                <br>
+                <label for="phone">Contato:  </label>
+                <input type="text" id="phone" name="contato">
+                <br>
+
+                <br>
+                <label for="phone1">Contato Familiar:  </label>
+                <input type="text" id="phone1" name="contatofamiliar">
+                <br>
+
+                <br>
+                <label for="street">Endereço:  </label>
+                <input type="text" id="street" name="endereco">
+                <br>
+
+                <br>
+                <label for="bairro">Bairro:  </label>
+                <input type="text" name="neighborhood" id="bairro">
+                <br>
+
+                <br>
+                <label for="cep">CEP:  </label>
+                <input type="text" id="cep" name="cep">
+                <br>
+
+                <br>
+                <label for="sexo">Sexo:  </label>
+                    <div>
+                        <input type="radio" id="sexo" name="sexo" value="Masculino">
+                        <label for="sexo1">Masculino</label>
+
+                        <input type="radio" id="sexo1" name="sexo" value="Feminino">
+                        <label for="sexo2">Feminino</label>
+
+                        <input type="radio" id="sexo2" name="sexo" value="Outro">
+                        <label for="sexo">Outro</label>
+                    </div>
+                <br>
+
+                <label for="username">E-mail:  </label>
+                <input type="text" id="username" name="email">
+                <br>
+
+                <br>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="senha">
+                <br>
+
+                <br>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <div class="saida">
+            <a href="/">Sair</a>
+        </div>
+    </main>
+</body>
+</html>

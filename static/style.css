@@ -1,0 +1,121 @@
+/*Atividade HTML */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #dac8b3
+}
+
+header {
+    width: 100%;
+    background-color: #001969;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+}
+
+body p{
+    margin: 0;
+    padding: 0;
+
+}
+
+.retangulo {
+    background-color: #001969;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 1010px;
+
+}
+
+.retangulo h1 {
+    margin: 10px 0;
+    font-size: 30px;
+    color: white;
+
+}
+
+.retangulo p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.login:hover {
+    background-color: #001969;
+}
+
+form {
+    background-color: #001969;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 10px auto;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+.logo{
+    width: 50%;
+    height: 70%;
+    margin-top: -250px;
+
+    position: absolute;
+    top: 60%;
+    left: 3%;
+}
+
+.msg p{
+    color: red;
+    font-size: 17px;
+}
+.msgok p{
+    color: white;
+    font-size: 17px;
+}
+
+.msgerro p {
+     color: red;
+     font-size: 17px;
+}

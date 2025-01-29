@@ -1,0 +1,97 @@
+/*Salvar Livros */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #dac8b3
+}
+
+.salvarLivros h1{
+    width: 100%;
+    background-color: #001969;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.cad_livros {
+    background-color: #001969;
+    width: 500px;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 40px;
+}
+
+.cad_livros h1{
+    color: white;
+    font-size: 20px;
+}
+
+.cad_livros form {
+    color: white;
+    font-size: 20px;
+}
+
+.cad_livros button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px auto;
+    margin-left: 20px;
+}
+.lapis{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 16%;
+    left: 3%;
+}
+
+.ler{
+    background-color: #001969;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 35px;
+}
+
+.ler h1{
+    color: white;
+    font-size: 20px;
+}
+
+.ler p{
+    color: white;
+    font-size: 15px;
+}
+
+.voltar{
+    margin-top: -605px;
+    margin-left: 15px;
+}
+
+.voltar a{
+    color: white;
+    text-decoration: none;
+}
