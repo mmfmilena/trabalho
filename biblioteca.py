@@ -68,7 +68,6 @@ def cadlivroslidos():
     else:
         return render_template('salvarlivros.html')
 
-
 @app.route('/pagcadastrolivros')
 def listarlivros():
     return render_template('salvarlivros.html')
