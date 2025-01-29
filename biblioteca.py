@@ -73,6 +73,5 @@ def cadlivroslidos():
 def listarlivros():
     return render_template('salvarlivros.html')
 
-print("Milena e Bia")
 if __name__ == '__main__':
     app.run(debug=True)
