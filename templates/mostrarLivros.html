@@ -8,12 +8,19 @@
 <body>
     <div class="livros_cad">
         <h1>Lista de Livros Cadastrados</h1>
+        <br>
+        <a href="/">Sair</a>
     </div>
 
     <div class="tabela">
         <br>
         <table>
             <thead>
+                    <tr>
+                        <th><strong>Título</strong></th>
+                        <th><strong>Autor</strong></th>
+                        <th><strong>Editora</strong></th>
+                    </tr>
                 {% for livro in lista %}
                     <tr>
                         <th>{{livro[0]}}</th>
@@ -24,8 +31,6 @@
             </thead>
         </table>
     </div>
-    <div class="sair">
-        <a href="/">Sair</a>
-    </div>
+
 </body>
 </html>
